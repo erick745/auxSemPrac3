@@ -16,7 +16,7 @@ function HomeScreen(props) {
         backgroundColor: '#80aba8',
       }}>
       <Text style={{fontSize: 20}}>INDEX</Text>
-      <Text style={{fontSize: 20}}> Deslizar para ver el Menu</Text>
+      <Text style={{fontSize: 20}}>Deslizar para ver el menu disponible.</Text>
       <TouchableOpacity
         style={{
           marginTop: 20,
@@ -28,7 +28,7 @@ function HomeScreen(props) {
           borderRadius: 5,
         }}
         onPress={() => props.navigation.navigate('Profile')}>
-        <Text style={{color: '#fff', fontSize: 20}}>Profile</Text>
+        <Text style={{color: '#fff', fontSize: 20}}>Go to Profile</Text>
       </TouchableOpacity>
     </View>
   );
